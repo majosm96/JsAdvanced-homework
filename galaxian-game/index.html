@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS game</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<!--Background´s canvas-->
+		<canvas class="background" id="background" width="600" height="360">Your browser does not support canvas. Please try again with different browser</canvas>
+
+		<!--Enemy ship & bullets´s canvas-->
+		<canvas  class="main" id="main" width="600" height="360">
+		</canvas>
+		<!-- Ship uses canvas-->
+		<canvas class="ship" id="ship" width="600" height="360">
+		</canvas>
+
+		<div class="score">SCORE: <span id="score"></span></div>
+		<div class="game-over" id="game-over">GAME OVER<p><span onclick="game.restart()">Restart</span></p></div>
+		<div class="loading" id="loading">LOADING...<p>Please wait</p></div>
+
+		<script type="text/javascript" src="js/game.js"></script>
+
+	</body>
+</html>

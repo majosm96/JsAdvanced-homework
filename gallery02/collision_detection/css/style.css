@@ -1,0 +1,14 @@
+canvas {
+	background: #F5F5F5;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.main {
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Mada', sans-serif;
+}
