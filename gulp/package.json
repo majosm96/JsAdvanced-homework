@@ -1,12 +1,12 @@
 {
   "name": "gulpbeginners",
   "version": "1.0.0",
-  "description": "gulp for beginners",
+  "description": "gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "keylin <keyhe.16@gmail.com>",
+  "author": "MariaJose Solis <majosm96@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.13",
